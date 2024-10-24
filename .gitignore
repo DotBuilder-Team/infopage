@@ -1,21 +1,24 @@
-node_modules
+# Ignore Visual Studio Code settings
+.vscode/
 
-# Output
-.output
-.vercel
-/.svelte-kit
-/build
+# Ignore JetBrains IDE settings
+.idea/
 
-# OS
+# Ignore Jekyll specific files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ignore temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore OS generated files
 .DS_Store
 Thumbs.db
-
-# Env
-.env
-.env.*
-!.env.example
-!.env.test
-
-# Vite
-vite.config.js.timestamp-*
-vite.config.ts.timestamp-*
