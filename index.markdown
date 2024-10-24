@@ -4,3 +4,9 @@
 
 layout: default
 ---
+
+# What is dotbuilder
+Dotbuilder is a new way to manage your tasks. It utilizes a canvas where you can drag around your tasks and organize visually.
+
+## check back soon for more updates! 🌟
+We are still working on dotbuilder. Please come back soon to see more!
