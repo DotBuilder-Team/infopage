@@ -1,24 +1,17 @@
-# Ignore Visual Studio Code settings
-.vscode/
-
-# Ignore JetBrains IDE settings
-.idea/
-
-# Ignore Jekyll specific files
-_site/
-.sass-cache/
-.jekyll-cache/
+_site
+.sass-cache
+.jekyll-cache
 .jekyll-metadata
-
-# Ignore temporary files
-*.log
-*.tmp
-*.swp
-*.bak
-*.pid
-*.seed
-*.pid.lock
-
-# Ignore OS generated files
+vendor
 .DS_Store
-Thumbs.db
+.env
+dist
+coverage
+.idea
+.vscode
+*.log
+Gemfile.lock
+.bundle
+.yarn-integrity
+.yarn-cache
+.yarn-error.log
